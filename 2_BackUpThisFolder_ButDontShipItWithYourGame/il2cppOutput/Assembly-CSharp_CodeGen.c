@@ -1,0 +1,360 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory::.ctor(System.DateTime,System.Double,System.Double,System.Double,Google.XR.ARCoreExtensions.Samples.Geospatial.AnchorType,UnityEngine.Quaternion)
+extern void GeospatialAnchorHistory__ctor_m956B0E194821EF2B3B0A92FE1B451AE3F3F37FCC (void);
+// 0x00000002 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory::.ctor(System.Double,System.Double,System.Double,Google.XR.ARCoreExtensions.Samples.Geospatial.AnchorType,UnityEngine.Quaternion)
+extern void GeospatialAnchorHistory__ctor_m3C3946BA26D42C12DBF05ACB0B10C0D2439BFE5D (void);
+// 0x00000003 System.DateTime Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory::get_CreatedTime()
+extern void GeospatialAnchorHistory_get_CreatedTime_m2C5F45E1C2051B6838DFE492BFB1E9E64FB5C76A (void);
+// 0x00000004 System.String Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory::ToString()
+extern void GeospatialAnchorHistory_ToString_mEF75221D34F044801DB11C95F4113DD9EFA87CF9 (void);
+// 0x00000005 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistoryCollection::.ctor()
+extern void GeospatialAnchorHistoryCollection__ctor_mF8B2CC65BEF02F8F5AD9A6745E9DA6B05D7D06FA (void);
+// 0x00000006 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnGetStartedClicked()
+extern void GeospatialController_OnGetStartedClicked_mB6C4C94AC37A8E6D9893E59949F2A4AC1B69CCF2 (void);
+// 0x00000007 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnLearnMoreClicked()
+extern void GeospatialController_OnLearnMoreClicked_m30E869F7D9259B137402B70B9ECCE93CDD0996E1 (void);
+// 0x00000008 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnClearAllClicked()
+extern void GeospatialController_OnClearAllClicked_m6B7370DE319DE3D74783693764E3D9D408C5D90C (void);
+// 0x00000009 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnContinueClicked()
+extern void GeospatialController_OnContinueClicked_m91B58E4D5A217930B85D603ED5B91EEF36CB1D92 (void);
+// 0x0000000A System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnGeometryToggled(System.Boolean)
+extern void GeospatialController_OnGeometryToggled_mF270B15BB42605E3D82E13FAF796C5F33A26A387 (void);
+// 0x0000000B System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnAnchorSettingButtonClicked()
+extern void GeospatialController_OnAnchorSettingButtonClicked_m5C4E597A58A1488B0F9C619E67B28F530522175A (void);
+// 0x0000000C System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnGeospatialAnchorToggled(System.Boolean)
+extern void GeospatialController_OnGeospatialAnchorToggled_mEE1C2F28A5A8E7E2A1AE30F3B544D6D885525D45 (void);
+// 0x0000000D System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnTerrainAnchorToggled(System.Boolean)
+extern void GeospatialController_OnTerrainAnchorToggled_m25C4E37C2F021C16F0B226E46522724EBD68DE66 (void);
+// 0x0000000E System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnRooftopAnchorToggled(System.Boolean)
+extern void GeospatialController_OnRooftopAnchorToggled_mD5BD1AC554784DB400ED6BCF69C1CD726D6A7F30 (void);
+// 0x0000000F System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::Awake()
+extern void GeospatialController_Awake_mCA86E4AF23D51CFD648FE92B0A03D51B9BA0DC62 (void);
+// 0x00000010 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnEnable()
+extern void GeospatialController_OnEnable_mEB3602FCCA7C89B722AFD4159D144A8DEEA618B9 (void);
+// 0x00000011 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::OnDisable()
+extern void GeospatialController_OnDisable_m4494298A36B1BF602BC9839471386CC264FE50D1 (void);
+// 0x00000012 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::Update()
+extern void GeospatialController_Update_m12FBC3C41C8B9B1060B6C586F36B51FA8315191E (void);
+// 0x00000013 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::InstantiateRenderObject(Google.XR.ARCoreExtensions.ARStreetscapeGeometry)
+extern void GeospatialController_InstantiateRenderObject_m260BD67C036254725764E941020570243E06AFA2 (void);
+// 0x00000014 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::UpdateRenderObject(Google.XR.ARCoreExtensions.ARStreetscapeGeometry)
+extern void GeospatialController_UpdateRenderObject_m2D8293CF5D355133AA5DF44FBCCBE7E7656B604E (void);
+// 0x00000015 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::DestroyRenderObject(Google.XR.ARCoreExtensions.ARStreetscapeGeometry)
+extern void GeospatialController_DestroyRenderObject_m8A2BC0D209FA1ADC1816BD0F6B84D838CB26349E (void);
+// 0x00000016 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::DestroyAllRenderObjects()
+extern void GeospatialController_DestroyAllRenderObjects_mB90AA76877F32F7FCAA442BF50E4BFBAEC233705 (void);
+// 0x00000017 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::SetAnchorPanelState(System.Boolean)
+extern void GeospatialController_SetAnchorPanelState_mC170FFEBD2759EDACC15B54213EC6516E99CCFCA (void);
+// 0x00000018 System.Collections.IEnumerator Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::CheckRooftopPromise(Google.XR.ARCoreExtensions.ResolveAnchorOnRooftopPromise,Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory)
+extern void GeospatialController_CheckRooftopPromise_mA7CA3BC2547E8415674CB8EA6A84A141F56A06B8 (void);
+// 0x00000019 System.Collections.IEnumerator Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::CheckTerrainPromise(Google.XR.ARCoreExtensions.ResolveAnchorOnTerrainPromise,Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory)
+extern void GeospatialController_CheckTerrainPromise_m3C45ADD14974293207D4100D7FA5CB6F42DD6E49 (void);
+// 0x0000001A System.Single Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::GetRooftopAnchorScale(UnityEngine.Vector3,UnityEngine.Vector3)
+extern void GeospatialController_GetRooftopAnchorScale_m1C28C6D2BB0D927C2499FD4DCDE574EE0559994F (void);
+// 0x0000001B System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::PlaceAnchorByScreenTap(UnityEngine.Vector2)
+extern void GeospatialController_PlaceAnchorByScreenTap_m021914E495D517012F09D3EDBA45CCD4E8DC54FB (void);
+// 0x0000001C Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::CreateHistory(UnityEngine.Pose,Google.XR.ARCoreExtensions.Samples.Geospatial.AnchorType)
+extern void GeospatialController_CreateHistory_m407B6913C197E907C31D69FB227380CCE047801B (void);
+// 0x0000001D UnityEngine.Quaternion Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::CreateRotation(Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory)
+extern void GeospatialController_CreateRotation_mF2CF07F2AC701E2D6B88A8C2E412A7ECE88EE3CB (void);
+// 0x0000001E UnityEngine.XR.ARFoundation.ARAnchor Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::PlaceARAnchor(Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory,UnityEngine.Pose,UnityEngine.XR.ARSubsystems.TrackableId)
+extern void GeospatialController_PlaceARAnchor_m2A2BEE9FB17492C3D10D03DA1903944BF47BD737 (void);
+// 0x0000001F Google.XR.ARCoreExtensions.ARGeospatialAnchor Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::PlaceGeospatialAnchor(Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory)
+extern void GeospatialController_PlaceGeospatialAnchor_mD14D74D7B94D60E1F15114425557C89B209512F3 (void);
+// 0x00000020 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::ResolveHistory()
+extern void GeospatialController_ResolveHistory_mF4A2FFB2FC64B439305A9B081795341F5F4A7359 (void);
+// 0x00000021 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::LoadGeospatialAnchorHistory()
+extern void GeospatialController_LoadGeospatialAnchorHistory_m78B8DEB20F80FE681FA18AC34EFBB190DE330605 (void);
+// 0x00000022 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::SaveGeospatialAnchorHistory()
+extern void GeospatialController_SaveGeospatialAnchorHistory_m518EB2F8DC525CDD2BE2A9E7D6AAF46D987569F1 (void);
+// 0x00000023 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::SwitchToARView(System.Boolean)
+extern void GeospatialController_SwitchToARView_mFB94E97C62D009E13324C261E04900D34D47410E (void);
+// 0x00000024 System.Collections.IEnumerator Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::AvailabilityCheck()
+extern void GeospatialController_AvailabilityCheck_mBD33DAAFFBDF7259087853B4298004DAD5D86519 (void);
+// 0x00000025 System.Collections.IEnumerator Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::StartLocationService()
+extern void GeospatialController_StartLocationService_m72676812B8A1C07C07EAB8574995C827CF57DBB8 (void);
+// 0x00000026 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::LifecycleUpdate()
+extern void GeospatialController_LifecycleUpdate_m9DF865831BF6070D17D792ABD8948E03B692AC9C (void);
+// 0x00000027 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::ReturnWithReason(System.String)
+extern void GeospatialController_ReturnWithReason_m94789CA6304ABFD05634B43C370B2399383312EF (void);
+// 0x00000028 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::QuitApplication()
+extern void GeospatialController_QuitApplication_m374C0568E0D871CB80991D28B9DAC2F2086B7B0A (void);
+// 0x00000029 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::UpdateDebugInfo()
+extern void GeospatialController_UpdateDebugInfo_m4DD7408BE036B30EE50B0F2CB2D5ED7B24B314A1 (void);
+// 0x0000002A System.String Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::GetDisplayStringForAnchorPlacedSuccess()
+extern void GeospatialController_GetDisplayStringForAnchorPlacedSuccess_m1AA53B6FE7B10ED7CAB01F55C6323596317E33E6 (void);
+// 0x0000002B System.String Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::GetDisplayStringForAnchorPlacedFailure()
+extern void GeospatialController_GetDisplayStringForAnchorPlacedFailure_mACABA3C50E474287168326B93E18C15C9977A963 (void);
+// 0x0000002C System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::.ctor()
+extern void GeospatialController__ctor_m94BF4BBFAAEC1C97890C4E06BF04404FBE6D8FEC (void);
+// 0x0000002D System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController::<Update>b__72_0(Google.XR.ARCoreExtensions.ARStreetscapeGeometriesChangedEventArgs)
+extern void GeospatialController_U3CUpdateU3Eb__72_0_m22A4EFC461ECC9B219A95FE886F98B89A032ECF3 (void);
+// 0x0000002E System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckRooftopPromise>d__78::.ctor(System.Int32)
+extern void U3CCheckRooftopPromiseU3Ed__78__ctor_mBFE1D0D1FA6FADE3968C0852CFB714BBC6B5ECD8 (void);
+// 0x0000002F System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckRooftopPromise>d__78::System.IDisposable.Dispose()
+extern void U3CCheckRooftopPromiseU3Ed__78_System_IDisposable_Dispose_m3624060DA89C7A51BC7309E00C60271753EE2755 (void);
+// 0x00000030 System.Boolean Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckRooftopPromise>d__78::MoveNext()
+extern void U3CCheckRooftopPromiseU3Ed__78_MoveNext_m0ADD3823F67951D42EDFDBA6E68894A14D277606 (void);
+// 0x00000031 System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckRooftopPromise>d__78::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckRooftopPromiseU3Ed__78_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0AA719809416BB32A02C2DDA54114A71B0983DC8 (void);
+// 0x00000032 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckRooftopPromise>d__78::System.Collections.IEnumerator.Reset()
+extern void U3CCheckRooftopPromiseU3Ed__78_System_Collections_IEnumerator_Reset_m788849909ACA6DC1ACD039FDE127A4BC93CF09AC (void);
+// 0x00000033 System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckRooftopPromise>d__78::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckRooftopPromiseU3Ed__78_System_Collections_IEnumerator_get_Current_m29233368139BB236F311A95E60E9B456AA74CACD (void);
+// 0x00000034 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckTerrainPromise>d__79::.ctor(System.Int32)
+extern void U3CCheckTerrainPromiseU3Ed__79__ctor_m7711CFEF798319F3AF26EA8156DD3D1E6DAF2176 (void);
+// 0x00000035 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckTerrainPromise>d__79::System.IDisposable.Dispose()
+extern void U3CCheckTerrainPromiseU3Ed__79_System_IDisposable_Dispose_mBAF7EDDA2016A35E0F3C921F701B15AB54DE6953 (void);
+// 0x00000036 System.Boolean Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckTerrainPromise>d__79::MoveNext()
+extern void U3CCheckTerrainPromiseU3Ed__79_MoveNext_m94A04FEDCA2E9A72FD0B7ED2C809EAE0A2248877 (void);
+// 0x00000037 System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckTerrainPromise>d__79::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckTerrainPromiseU3Ed__79_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE34E32CE678226DDB528BA7A7C1AD0F36BBA29F3 (void);
+// 0x00000038 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckTerrainPromise>d__79::System.Collections.IEnumerator.Reset()
+extern void U3CCheckTerrainPromiseU3Ed__79_System_Collections_IEnumerator_Reset_mE9A349CF417B23DC482179DC74D2C1E0E6CABF4C (void);
+// 0x00000039 System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<CheckTerrainPromise>d__79::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckTerrainPromiseU3Ed__79_System_Collections_IEnumerator_get_Current_m541A283EB60A08B99A0F95880D365DEE55A6AFA4 (void);
+// 0x0000003A System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<>c__DisplayClass87_0::.ctor()
+extern void U3CU3Ec__DisplayClass87_0__ctor_m71152C046C88C873D365C2D9DA56069FE130FD75 (void);
+// 0x0000003B System.Boolean Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<>c__DisplayClass87_0::<LoadGeospatialAnchorHistory>b__0(Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory)
+extern void U3CU3Ec__DisplayClass87_0_U3CLoadGeospatialAnchorHistoryU3Eb__0_m0C3BE2BC125B263D1C2BCC36B09D4AEFA45D2307 (void);
+// 0x0000003C System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<>c::.cctor()
+extern void U3CU3Ec__cctor_mF33920987DC5FA14E7DC0240B2361237B504622C (void);
+// 0x0000003D System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<>c::.ctor()
+extern void U3CU3Ec__ctor_mF5556B9529937F2A00DE74AC878F7F351A95CADC (void);
+// 0x0000003E System.Int32 Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<>c::<SaveGeospatialAnchorHistory>b__88_0(Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory,Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialAnchorHistory)
+extern void U3CU3Ec_U3CSaveGeospatialAnchorHistoryU3Eb__88_0_m20E07BB0FC52F706169BA4A14BE5AD490A59D48F (void);
+// 0x0000003F System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<AvailabilityCheck>d__90::.ctor(System.Int32)
+extern void U3CAvailabilityCheckU3Ed__90__ctor_mF5A70433BD6963156346DB2BAF6B67545F5C2DBB (void);
+// 0x00000040 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<AvailabilityCheck>d__90::System.IDisposable.Dispose()
+extern void U3CAvailabilityCheckU3Ed__90_System_IDisposable_Dispose_mA28B0C6793A9812DF92DCDCEB680DF62AEAD93E6 (void);
+// 0x00000041 System.Boolean Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<AvailabilityCheck>d__90::MoveNext()
+extern void U3CAvailabilityCheckU3Ed__90_MoveNext_m4B4705A9817CEB9604EB4ACBF7751F1D13F32092 (void);
+// 0x00000042 System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<AvailabilityCheck>d__90::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAvailabilityCheckU3Ed__90_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC9AF0EF8C05002AB5BDD477867FB60A9EEE2A7AD (void);
+// 0x00000043 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<AvailabilityCheck>d__90::System.Collections.IEnumerator.Reset()
+extern void U3CAvailabilityCheckU3Ed__90_System_Collections_IEnumerator_Reset_mC63595069419881936AD795D79DCB7594F6ED3CD (void);
+// 0x00000044 System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<AvailabilityCheck>d__90::System.Collections.IEnumerator.get_Current()
+extern void U3CAvailabilityCheckU3Ed__90_System_Collections_IEnumerator_get_Current_m2E99AB2493A33D1C436A563DC5FC44E7B2166FC9 (void);
+// 0x00000045 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<StartLocationService>d__91::.ctor(System.Int32)
+extern void U3CStartLocationServiceU3Ed__91__ctor_m9E5476902A086A1B895E44CED5A1234B0535773D (void);
+// 0x00000046 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<StartLocationService>d__91::System.IDisposable.Dispose()
+extern void U3CStartLocationServiceU3Ed__91_System_IDisposable_Dispose_mA157BA291119928CA8B8C248A3DF1D6A5CAEA315 (void);
+// 0x00000047 System.Boolean Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<StartLocationService>d__91::MoveNext()
+extern void U3CStartLocationServiceU3Ed__91_MoveNext_mE43083F9F95895014956E0BE85D57C96D632C1C9 (void);
+// 0x00000048 System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<StartLocationService>d__91::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartLocationServiceU3Ed__91_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB70A3B8DBB5C1A85098E817F8A0795F7BAC73D10 (void);
+// 0x00000049 System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<StartLocationService>d__91::System.Collections.IEnumerator.Reset()
+extern void U3CStartLocationServiceU3Ed__91_System_Collections_IEnumerator_Reset_mF36254BAB4FA5BDB9DB0EE857D8F2078FC803DA7 (void);
+// 0x0000004A System.Object Google.XR.ARCoreExtensions.Samples.Geospatial.GeospatialController/<StartLocationService>d__91::System.Collections.IEnumerator.get_Current()
+extern void U3CStartLocationServiceU3Ed__91_System_Collections_IEnumerator_get_Current_m7A2ECFC086F0669E32173BE6AE18C9AC02B6708C (void);
+// 0x0000004B System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.SafeAreaScaler::Update()
+extern void SafeAreaScaler_Update_m4C02B57A221CB119573B865749FAEFB0E75F569A (void);
+// 0x0000004C System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.SafeAreaScaler::MatchRectTransformToSafeArea()
+extern void SafeAreaScaler_MatchRectTransformToSafeArea_m04E6A9A1444C10EDDC3392285A1C5BE523BE8F64 (void);
+// 0x0000004D System.Void Google.XR.ARCoreExtensions.Samples.Geospatial.SafeAreaScaler::.ctor()
+extern void SafeAreaScaler__ctor_m61ED2F6F927714C4ED11AA2AEE2A0B9EA79B484B (void);
+static Il2CppMethodPointer s_methodPointers[77] = 
+{
+	GeospatialAnchorHistory__ctor_m956B0E194821EF2B3B0A92FE1B451AE3F3F37FCC,
+	GeospatialAnchorHistory__ctor_m3C3946BA26D42C12DBF05ACB0B10C0D2439BFE5D,
+	GeospatialAnchorHistory_get_CreatedTime_m2C5F45E1C2051B6838DFE492BFB1E9E64FB5C76A,
+	GeospatialAnchorHistory_ToString_mEF75221D34F044801DB11C95F4113DD9EFA87CF9,
+	GeospatialAnchorHistoryCollection__ctor_mF8B2CC65BEF02F8F5AD9A6745E9DA6B05D7D06FA,
+	GeospatialController_OnGetStartedClicked_mB6C4C94AC37A8E6D9893E59949F2A4AC1B69CCF2,
+	GeospatialController_OnLearnMoreClicked_m30E869F7D9259B137402B70B9ECCE93CDD0996E1,
+	GeospatialController_OnClearAllClicked_m6B7370DE319DE3D74783693764E3D9D408C5D90C,
+	GeospatialController_OnContinueClicked_m91B58E4D5A217930B85D603ED5B91EEF36CB1D92,
+	GeospatialController_OnGeometryToggled_mF270B15BB42605E3D82E13FAF796C5F33A26A387,
+	GeospatialController_OnAnchorSettingButtonClicked_m5C4E597A58A1488B0F9C619E67B28F530522175A,
+	GeospatialController_OnGeospatialAnchorToggled_mEE1C2F28A5A8E7E2A1AE30F3B544D6D885525D45,
+	GeospatialController_OnTerrainAnchorToggled_m25C4E37C2F021C16F0B226E46522724EBD68DE66,
+	GeospatialController_OnRooftopAnchorToggled_mD5BD1AC554784DB400ED6BCF69C1CD726D6A7F30,
+	GeospatialController_Awake_mCA86E4AF23D51CFD648FE92B0A03D51B9BA0DC62,
+	GeospatialController_OnEnable_mEB3602FCCA7C89B722AFD4159D144A8DEEA618B9,
+	GeospatialController_OnDisable_m4494298A36B1BF602BC9839471386CC264FE50D1,
+	GeospatialController_Update_m12FBC3C41C8B9B1060B6C586F36B51FA8315191E,
+	GeospatialController_InstantiateRenderObject_m260BD67C036254725764E941020570243E06AFA2,
+	GeospatialController_UpdateRenderObject_m2D8293CF5D355133AA5DF44FBCCBE7E7656B604E,
+	GeospatialController_DestroyRenderObject_m8A2BC0D209FA1ADC1816BD0F6B84D838CB26349E,
+	GeospatialController_DestroyAllRenderObjects_mB90AA76877F32F7FCAA442BF50E4BFBAEC233705,
+	GeospatialController_SetAnchorPanelState_mC170FFEBD2759EDACC15B54213EC6516E99CCFCA,
+	GeospatialController_CheckRooftopPromise_mA7CA3BC2547E8415674CB8EA6A84A141F56A06B8,
+	GeospatialController_CheckTerrainPromise_m3C45ADD14974293207D4100D7FA5CB6F42DD6E49,
+	GeospatialController_GetRooftopAnchorScale_m1C28C6D2BB0D927C2499FD4DCDE574EE0559994F,
+	GeospatialController_PlaceAnchorByScreenTap_m021914E495D517012F09D3EDBA45CCD4E8DC54FB,
+	GeospatialController_CreateHistory_m407B6913C197E907C31D69FB227380CCE047801B,
+	GeospatialController_CreateRotation_mF2CF07F2AC701E2D6B88A8C2E412A7ECE88EE3CB,
+	GeospatialController_PlaceARAnchor_m2A2BEE9FB17492C3D10D03DA1903944BF47BD737,
+	GeospatialController_PlaceGeospatialAnchor_mD14D74D7B94D60E1F15114425557C89B209512F3,
+	GeospatialController_ResolveHistory_mF4A2FFB2FC64B439305A9B081795341F5F4A7359,
+	GeospatialController_LoadGeospatialAnchorHistory_m78B8DEB20F80FE681FA18AC34EFBB190DE330605,
+	GeospatialController_SaveGeospatialAnchorHistory_m518EB2F8DC525CDD2BE2A9E7D6AAF46D987569F1,
+	GeospatialController_SwitchToARView_mFB94E97C62D009E13324C261E04900D34D47410E,
+	GeospatialController_AvailabilityCheck_mBD33DAAFFBDF7259087853B4298004DAD5D86519,
+	GeospatialController_StartLocationService_m72676812B8A1C07C07EAB8574995C827CF57DBB8,
+	GeospatialController_LifecycleUpdate_m9DF865831BF6070D17D792ABD8948E03B692AC9C,
+	GeospatialController_ReturnWithReason_m94789CA6304ABFD05634B43C370B2399383312EF,
+	GeospatialController_QuitApplication_m374C0568E0D871CB80991D28B9DAC2F2086B7B0A,
+	GeospatialController_UpdateDebugInfo_m4DD7408BE036B30EE50B0F2CB2D5ED7B24B314A1,
+	GeospatialController_GetDisplayStringForAnchorPlacedSuccess_m1AA53B6FE7B10ED7CAB01F55C6323596317E33E6,
+	GeospatialController_GetDisplayStringForAnchorPlacedFailure_mACABA3C50E474287168326B93E18C15C9977A963,
+	GeospatialController__ctor_m94BF4BBFAAEC1C97890C4E06BF04404FBE6D8FEC,
+	GeospatialController_U3CUpdateU3Eb__72_0_m22A4EFC461ECC9B219A95FE886F98B89A032ECF3,
+	U3CCheckRooftopPromiseU3Ed__78__ctor_mBFE1D0D1FA6FADE3968C0852CFB714BBC6B5ECD8,
+	U3CCheckRooftopPromiseU3Ed__78_System_IDisposable_Dispose_m3624060DA89C7A51BC7309E00C60271753EE2755,
+	U3CCheckRooftopPromiseU3Ed__78_MoveNext_m0ADD3823F67951D42EDFDBA6E68894A14D277606,
+	U3CCheckRooftopPromiseU3Ed__78_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0AA719809416BB32A02C2DDA54114A71B0983DC8,
+	U3CCheckRooftopPromiseU3Ed__78_System_Collections_IEnumerator_Reset_m788849909ACA6DC1ACD039FDE127A4BC93CF09AC,
+	U3CCheckRooftopPromiseU3Ed__78_System_Collections_IEnumerator_get_Current_m29233368139BB236F311A95E60E9B456AA74CACD,
+	U3CCheckTerrainPromiseU3Ed__79__ctor_m7711CFEF798319F3AF26EA8156DD3D1E6DAF2176,
+	U3CCheckTerrainPromiseU3Ed__79_System_IDisposable_Dispose_mBAF7EDDA2016A35E0F3C921F701B15AB54DE6953,
+	U3CCheckTerrainPromiseU3Ed__79_MoveNext_m94A04FEDCA2E9A72FD0B7ED2C809EAE0A2248877,
+	U3CCheckTerrainPromiseU3Ed__79_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE34E32CE678226DDB528BA7A7C1AD0F36BBA29F3,
+	U3CCheckTerrainPromiseU3Ed__79_System_Collections_IEnumerator_Reset_mE9A349CF417B23DC482179DC74D2C1E0E6CABF4C,
+	U3CCheckTerrainPromiseU3Ed__79_System_Collections_IEnumerator_get_Current_m541A283EB60A08B99A0F95880D365DEE55A6AFA4,
+	U3CU3Ec__DisplayClass87_0__ctor_m71152C046C88C873D365C2D9DA56069FE130FD75,
+	U3CU3Ec__DisplayClass87_0_U3CLoadGeospatialAnchorHistoryU3Eb__0_m0C3BE2BC125B263D1C2BCC36B09D4AEFA45D2307,
+	U3CU3Ec__cctor_mF33920987DC5FA14E7DC0240B2361237B504622C,
+	U3CU3Ec__ctor_mF5556B9529937F2A00DE74AC878F7F351A95CADC,
+	U3CU3Ec_U3CSaveGeospatialAnchorHistoryU3Eb__88_0_m20E07BB0FC52F706169BA4A14BE5AD490A59D48F,
+	U3CAvailabilityCheckU3Ed__90__ctor_mF5A70433BD6963156346DB2BAF6B67545F5C2DBB,
+	U3CAvailabilityCheckU3Ed__90_System_IDisposable_Dispose_mA28B0C6793A9812DF92DCDCEB680DF62AEAD93E6,
+	U3CAvailabilityCheckU3Ed__90_MoveNext_m4B4705A9817CEB9604EB4ACBF7751F1D13F32092,
+	U3CAvailabilityCheckU3Ed__90_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC9AF0EF8C05002AB5BDD477867FB60A9EEE2A7AD,
+	U3CAvailabilityCheckU3Ed__90_System_Collections_IEnumerator_Reset_mC63595069419881936AD795D79DCB7594F6ED3CD,
+	U3CAvailabilityCheckU3Ed__90_System_Collections_IEnumerator_get_Current_m2E99AB2493A33D1C436A563DC5FC44E7B2166FC9,
+	U3CStartLocationServiceU3Ed__91__ctor_m9E5476902A086A1B895E44CED5A1234B0535773D,
+	U3CStartLocationServiceU3Ed__91_System_IDisposable_Dispose_mA157BA291119928CA8B8C248A3DF1D6A5CAEA315,
+	U3CStartLocationServiceU3Ed__91_MoveNext_mE43083F9F95895014956E0BE85D57C96D632C1C9,
+	U3CStartLocationServiceU3Ed__91_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB70A3B8DBB5C1A85098E817F8A0795F7BAC73D10,
+	U3CStartLocationServiceU3Ed__91_System_Collections_IEnumerator_Reset_mF36254BAB4FA5BDB9DB0EE857D8F2078FC803DA7,
+	U3CStartLocationServiceU3Ed__91_System_Collections_IEnumerator_get_Current_m7A2ECFC086F0669E32173BE6AE18C9AC02B6708C,
+	SafeAreaScaler_Update_m4C02B57A221CB119573B865749FAEFB0E75F569A,
+	SafeAreaScaler_MatchRectTransformToSafeArea_m04E6A9A1444C10EDDC3392285A1C5BE523BE8F64,
+	SafeAreaScaler__ctor_m61ED2F6F927714C4ED11AA2AEE2A0B9EA79B484B,
+};
+extern void GeospatialAnchorHistory__ctor_m956B0E194821EF2B3B0A92FE1B451AE3F3F37FCC_AdjustorThunk (void);
+extern void GeospatialAnchorHistory__ctor_m3C3946BA26D42C12DBF05ACB0B10C0D2439BFE5D_AdjustorThunk (void);
+extern void GeospatialAnchorHistory_get_CreatedTime_m2C5F45E1C2051B6838DFE492BFB1E9E64FB5C76A_AdjustorThunk (void);
+extern void GeospatialAnchorHistory_ToString_mEF75221D34F044801DB11C95F4113DD9EFA87CF9_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
+{
+	{ 0x06000001, GeospatialAnchorHistory__ctor_m956B0E194821EF2B3B0A92FE1B451AE3F3F37FCC_AdjustorThunk },
+	{ 0x06000002, GeospatialAnchorHistory__ctor_m3C3946BA26D42C12DBF05ACB0B10C0D2439BFE5D_AdjustorThunk },
+	{ 0x06000003, GeospatialAnchorHistory_get_CreatedTime_m2C5F45E1C2051B6838DFE492BFB1E9E64FB5C76A_AdjustorThunk },
+	{ 0x06000004, GeospatialAnchorHistory_ToString_mEF75221D34F044801DB11C95F4113DD9EFA87CF9_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[77] = 
+{
+	212,
+	446,
+	6591,
+	6667,
+	6779,
+	6779,
+	6779,
+	6779,
+	6779,
+	5249,
+	6779,
+	5249,
+	5249,
+	5249,
+	6779,
+	6779,
+	6779,
+	6779,
+	5342,
+	5342,
+	5342,
+	6779,
+	5249,
+	2194,
+	2194,
+	2231,
+	5434,
+	1888,
+	4758,
+	1221,
+	4693,
+	6779,
+	6779,
+	6779,
+	5249,
+	6667,
+	6667,
+	6779,
+	5342,
+	6779,
+	6779,
+	6667,
+	6667,
+	6779,
+	5232,
+	5316,
+	6779,
+	6575,
+	6667,
+	6779,
+	6667,
+	5316,
+	6779,
+	6575,
+	6667,
+	6779,
+	6667,
+	6779,
+	3681,
+	12094,
+	6779,
+	1941,
+	5316,
+	6779,
+	6575,
+	6667,
+	6779,
+	6667,
+	5316,
+	6779,
+	6575,
+	6667,
+	6779,
+	6667,
+	6779,
+	6779,
+	6779,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	77,
+	s_methodPointers,
+	4,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
