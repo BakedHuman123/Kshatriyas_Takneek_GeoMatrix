@@ -1,5 +1,5 @@
 using UnityEngine;
-public class ARGameStarter : MonoBehaviour
+public class ARGameStart : MonoBehaviour
 {
     public string startTriggerTag = "StartTrigger"; // Tag for the collider that triggers the menu
     public GameObject mainMenuCanvas; // Reference to the Main Menu Canvas
