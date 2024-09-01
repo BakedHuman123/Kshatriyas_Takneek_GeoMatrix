@@ -20,6 +20,7 @@ public class ARGameStart : MonoBehaviour
         {
             ShowMainMenu();
         }
+        other.gameObject.SetActive(false);
     }
 
     private void ShowMainMenu()
@@ -32,8 +33,8 @@ public class ARGameStart : MonoBehaviour
             mainMenuCanvas.SetActive(true);
 
             // Position the Canvas in front of the AR Camera
-            mainMenuCanvas.transform.position = transform.position + transform.forward * 2.0f; // 2 units in front
-            mainMenuCanvas.transform.rotation = Quaternion.LookRotation(transform.forward); // Face towards the camera
+            //mainMenuCanvas.transform.position = transform.position + transform.forward * 2.0f; // 2 units in front
+            //mainMenuCanvas.transform.rotation = Quaternion.LookRotation(transform.forward); // Face towards the camera
         }
         else
         {
