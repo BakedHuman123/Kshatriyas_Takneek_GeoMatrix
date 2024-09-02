@@ -7,26 +7,31 @@ using TMPro;
 
 public class Ammo : MonoBehaviour
 {
-    public float Ammo_Count = 10f;
-     public TextMeshProUGUI AmmoText;
-    public int reload = 1;
+    
+    public TextMeshProUGUI AmmoText;
+    public int reload = 0;
     public GameObject Shooter;
+    public Gun gun;
+    public float Ammo_Count;
+    public GunManager gm;
 
     public void decrease_Ammo(){
-        Ammo_Count-=1f;
-        
-            if(Ammo_Count == 0f && reload > 0){
+        Ammo_Count -= gun.gun_rate;
+        Debug.Log(Ammo_Count);
+        gm.Current_Ammo[(int)gun.gun_index] = (int)Ammo_Count;
+            /*if(Ammo_Count <= 0f && reload > 0){
                 Ammo_Count = 10f;
                 reload--;
-            }
-            if(reload == 0 && Ammo_Count == 0){
+            }*/
+            if(reload <= 0 && Ammo_Count <= 0){
                 Button button = Shooter.GetComponent<Button>();
                 button.enabled = false;
             }
         
     }
     public void Update()
-    {
+    {   
+        Ammo_Count = gm.Current_Ammo[(int)gun.gun_index];
         AmmoText.text = "Ammo : " + Ammo_Count.ToString();
     }
     
