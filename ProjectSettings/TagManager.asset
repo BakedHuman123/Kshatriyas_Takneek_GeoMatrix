@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StartTrigger
   - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

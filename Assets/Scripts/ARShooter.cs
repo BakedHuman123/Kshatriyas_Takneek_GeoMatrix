@@ -18,6 +18,6 @@ public class ARShooter : MonoBehaviour
         rb.velocity = shootPoint.forward * bulletSpeed;
         
         // Destroy the bullet after a few seconds to avoid clutter
-        Destroy(bullet, 5f);
+        Destroy(bullet, 3f);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy_Destroy : MonoBehaviour
 {
+    public float Enemy_Score=1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class Enemy_Destroy : MonoBehaviour
         if(other.gameObject.CompareTag("Bullet")){
             Destroy(other.gameObject);
             Destroy(gameObject);
+            GameManager.instance.AddScore(Enemy_Score);
         }
     }
 }

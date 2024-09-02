@@ -8,6 +8,7 @@ public class PlayerTracking : MonoBehaviour
     public float speed = 5f;
     public Rigidbody rb;
     private PlayerHealth playerHealth;
+    public Vector3 direction;
     void Awake(){
         
     }
@@ -22,7 +23,7 @@ public class PlayerTracking : MonoBehaviour
     void Update()
     {
         transform.position = new Vector3(transform.position.x, Player.transform.position.y, transform.position.z);
-        Vector3 direction = new Vector3(Player.transform.position.x-transform.position.x, 0, Player.transform.position.z-transform.position.z);
+        direction = new Vector3(Player.transform.position.x-transform.position.x, 0, Player.transform.position.z-transform.position.z);
         if(direction.magnitude < 1f){
             Destroy(gameObject);
             playerHealth.health -= 20;

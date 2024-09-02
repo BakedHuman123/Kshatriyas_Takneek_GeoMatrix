@@ -15,7 +15,7 @@ public class SpawnEnemies : MonoBehaviour
     }
 
     // Update is called once per frame
-    IEnumerator SpawnEnemiesAtIntervals()
+    public IEnumerator SpawnEnemiesAtIntervals()
     {
          while (true) // Infinite loop to keep spawning enemies
         {
@@ -32,5 +32,8 @@ public class SpawnEnemies : MonoBehaviour
             // Wait for the specified interval before spawning again
             yield return new WaitForSeconds(Random.Range(1f,3f));
         }
+    }
+    void Pause(){
+
     }
 }
