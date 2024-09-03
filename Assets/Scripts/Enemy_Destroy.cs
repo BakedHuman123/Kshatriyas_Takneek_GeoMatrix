@@ -21,6 +21,7 @@ public class Enemy_Destroy : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
             GameManager.instance.AddScore(Enemy_Score);
+            
         }
     }
 }

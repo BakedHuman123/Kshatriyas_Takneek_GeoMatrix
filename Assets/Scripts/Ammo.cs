@@ -23,7 +23,7 @@ public class Ammo : MonoBehaviour
                 Ammo_Count = 10f;
                 reload--;
             }*/
-            if(reload <= 0 && Ammo_Count <= 0){
+            if(Ammo_Count <= 0){
                 Button button = Shooter.GetComponent<Button>();
                 button.enabled = false;
             }
@@ -31,8 +31,14 @@ public class Ammo : MonoBehaviour
     }
     public void Update()
     {   
-        Ammo_Count = gm.Current_Ammo[(int)gun.gun_index];
-        AmmoText.text = "Ammo : " + Ammo_Count.ToString();
+        if(gm.Current_Ammo[(int)gun.gun_index] < 0){
+            AmmoText.text = "Ammo : 0";    
+        }
+        else{
+            Ammo_Count = gm.Current_Ammo[(int)gun.gun_index];
+            AmmoText.text = "Ammo : " + Ammo_Count.ToString();
+        }
+        
     }
     
 }

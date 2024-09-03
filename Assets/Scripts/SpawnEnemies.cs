@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnEnemies : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public int numberOfSpawns = 5;
+    public int numberOfSpawns ;
     public float spawnInterval = 2f;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class SpawnEnemies : MonoBehaviour
             {
                 // Calculate a random spawn location around the spawner
                 Vector3 spawnLocation = new Vector3(
-                    transform.position.x + Random.Range(-10.0f, 10.0f), transform.position.y, transform.position.z + Random.Range(-10.0f, 10.0f));
+                    transform.position.x + Random.Range(-40.0f, 40.0f), transform.position.y, transform.position.z + Random.Range(-40.0f, 40.0f));
 
                 // Instantiate the enemy prefab at the spawn location
                 Instantiate(enemyPrefab, spawnLocation, transform.rotation);
