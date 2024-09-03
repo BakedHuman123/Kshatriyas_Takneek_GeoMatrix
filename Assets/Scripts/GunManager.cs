@@ -15,7 +15,12 @@ public class GunManager : MonoBehaviour
     public int[] Gun_Index;
     public Gun gun;
     public Ammo ammo;
-     void Start()
+    private int card1, card2;
+    public GameObject pistol;
+    public GameObject SMG;
+    public GameObject SG;
+    public GameObject AR;
+    public void Start()
     {
         damage[0] = 35; damage[1] = 15; damage[2] = 100; damage[3] = 50;
         Destroy_time[0] = 3; Destroy_time[1]=2; Destroy_time[2] = 2; Destroy_time[3]=3;
@@ -26,14 +31,44 @@ public class GunManager : MonoBehaviour
             Current_Ammo[i] = Gun_Ammo[i];
             Gun_Index[i] = i;
         }
-        
-    }
+        card1 = Random.Range(0,2);
+        if(card1 == 1){
+            card1 = 2;
+        }      
+        card2 = Random.Range(1,3);
+        if(card2 == 2){
+            card2 = 3;
+        }  
+        switch(card1){
+            case 0 : SG.SetActive(false);
+            break;
+            case 1 : AR.SetActive(false);
+            break;
+            case 2 : pistol.SetActive(false);
+            break;
+            case 3: SMG.SetActive(false);
+            break;
+        }
+        switch(card2){
+            case 0 : SG.SetActive(false);
+            break;
+            case 1 : AR.SetActive(false);
+            break;
+            case 2 : pistol.SetActive(false);
+            break;
+            case 3: SMG.SetActive(false);
+            break;
+        }
+    }
     void Update(){
+        Debug.Log(card1);
+        Debug.Log(card2);
         for (int i = 0; i < buttons.Length; i++)
         {
-            int index = i; // Capture the index for the listener
+            int index = i;
+            if(index == card1 || index == card2) // Capture the index for the listener
             buttons[i].onClick.AddListener(() => gun.updateGun(damage[index], Destroy_time[index], Speed[index], Fire_rate[index], Gun_Ammo[index], Current_Ammo[index], Gun_Index[index]));
 
         }
-    }
+    }
 }
