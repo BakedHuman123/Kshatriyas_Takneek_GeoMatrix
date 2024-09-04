@@ -1450,8 +1450,7 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 $"  ALT: {pose.Altitude:F2}\n" +
                 $"  VerticalAcc: {pose.VerticalAccuracy:F2}\n" +
                 $". EunRotation: {pose.EunRotation:F2}\n" +
-                $"  OrientationYawAcc: {pose.OrientationYawAccuracy:F2}" +
-                $"  Camera Coords: {Player.transform.position.x:F2}, {Player.transform.position.z:F2}";
+                $"  OrientationYawAcc: {pose.OrientationYawAccuracy:F2}";
         }
 
         /// <summary>

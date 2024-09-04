@@ -14,9 +14,19 @@ public class Ammo : MonoBehaviour
     public Gun gun;
     public float Ammo_Count;
     public GunManager gm;
+    public GameObject[] Secondary;
 
     public void decrease_Ammo(){
-        Ammo_Count -= gun.gun_rate;
+        if(Secondary[0].activeSelf)
+            Ammo_Count -= 4;
+        else if(Secondary[1].activeSelf)
+            Ammo_Count -= 3;
+        else if(Secondary[2].activeSelf)
+            Ammo_Count -= 10;
+        else if(Secondary[3].activeSelf)
+            Ammo_Count -= 6;
+        else
+            Ammo_Count -= gun.gun_rate;
         Debug.Log(Ammo_Count);
         gm.Current_Ammo[(int)gun.gun_index] = (int)Ammo_Count;
             /*if(Ammo_Count <= 0f && reload > 0){

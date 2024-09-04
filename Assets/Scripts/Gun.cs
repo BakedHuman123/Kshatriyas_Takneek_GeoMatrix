@@ -14,6 +14,7 @@ public class Gun : MonoBehaviour
     public float gun_index;
     public GameObject shootButtton;
     public Image[] Gun_Image;
+    public GameObject[] Secondary;
     public void updateGun(float damage, float Destroy_time ,float Speed,float Fire_rate, float Max_Ammo, float Current_Ammo, float Gun_Index)
     {
         gun_damage = damage;

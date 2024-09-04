@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject showPauseMenu;
     public GameObject ShootButton;
     public GameObject Spawner;
+    public AudioSource onClickSound;
 
     private SpawnEnemies spawnerScript;  // Reference to the SpawnEnemies script
 
@@ -19,6 +20,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Pause()
     {
+        // onClickSound.Play();
         showPauseMenu.SetActive(true);
         ShootButton.SetActive(false);
         Debug.Log("Pause");
@@ -41,6 +43,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        onClickSound.Play();
         showPauseMenu.SetActive(false);
         ShootButton.SetActive(true);
 
@@ -69,6 +72,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Quit()
     {
+        onClickSound.Play();
         Application.Quit();
     }
 }

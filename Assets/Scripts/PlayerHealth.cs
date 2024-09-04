@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameObject showEndScreen;
+    public GameObject hideLevel;
     public int health = 80;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +18,10 @@ public class PlayerHealth : MonoBehaviour
     {
         if(health <= 0){
             Debug.Log("Quitting");
-            Application.Quit();
+            hideLevel.SetActive(false);
+            showEndScreen.SetActive(false);
+            
+            
         }
     }
 }

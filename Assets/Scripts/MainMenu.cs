@@ -8,22 +8,34 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject ShowInstructions;
     public GameObject ShowMainMenu;
-    public void Start()
+
+    public GameObject ShowLevel;
+    public AudioSource onclickSound;
+    public void StartButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        onclickSound.Play();
+        ShowLevel.SetActive(true);
+        ShowMainMenu.SetActive(false);
+        ShowInstructions.SetActive(false);
+        
     }
     public void ShowInstructionPanel()
     {
+        onclickSound.Play();
         ShowInstructions.SetActive(true);
         ShowMainMenu.SetActive(false);
+        ShowLevel.SetActive(false);
     }
     public void Back()
     {
+        onclickSound.Play();
         ShowInstructions.SetActive(false);
         ShowMainMenu.SetActive(true);
+        ShowLevel.SetActive(false);
     }
     public void Quit()
     {
+        onclickSound.Play();
         Application.Quit();
     }
 }
