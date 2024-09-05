@@ -9,7 +9,7 @@
 - [Building the final apk file](#6)
 
 --------------------
-<a name = "#1">
+<a name = "#1"></a>
 
 #### Setting up a Unity project
 (Disclaimer - We did this on Unity Version 2021.3.17f)
@@ -20,7 +20,7 @@
   - https://youtu.be/tnBFi_EWaCE?si=EmOfjDCa_nRTmWrF
 
 --------------------
-<a name = "#2">
+<a name = "#2"></a>
 
 #### Setting up Basic Game Objects
 
@@ -36,7 +36,7 @@
 - Add these scripts to the respective dummy objects.
 
 --------------------
-<a name = "#4">
+<a name = "#4"></a>
 
 #### Setting up UI
 
@@ -44,7 +44,7 @@
 - Also make sure to add crosshair shoot button etc.
 
 --------------------
-<a name = "#5">
+<a name = "#5"></a>
 
 #### Adding game art and Icons
 
@@ -52,7 +52,7 @@
 - Add icons for shooting and switching weapons.
 
 --------------------
-<a name = "#5">
+<a name = "#6"></a>
 
 #### Building an apk file
 
