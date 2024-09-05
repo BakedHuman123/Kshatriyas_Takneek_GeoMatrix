@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 165d03481fa2536449a2b125dbc918cb
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mokoto
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 91db7d66c0f46ab48b6c238d30c30bbb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
