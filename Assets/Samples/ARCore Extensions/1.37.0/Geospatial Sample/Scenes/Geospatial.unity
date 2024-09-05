@@ -1190,6 +1190,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307047416}
   m_CullTransparentMesh: 1
+--- !u!1001 &308523453
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.600113
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.25711346
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.370205
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353192, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464942170355353194, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fc9f3d0f8ee828e40905e69c47ac1a8f, type: 2}
+    - target: {fileID: 3464942170355353196, guid: f58b9092898a3054288e655e62518160, type: 3}
+      propertyPath: m_Name
+      value: Bomb
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f58b9092898a3054288e655e62518160, type: 3}
 --- !u!1 &353487779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4194,10 +4255,11 @@ MonoBehaviour:
   m_text: 'Two Locations: FacB Parking and Approach cell
 
     You start with two
-    randomly selected cards out of four, each granting you a unique secondary power.
-    You can swap these cards to use their power-ups. If a power-up or the ammunition
-    for a particular card runs out, that card will be discarded. Your goal is to
-    achieve the highest score possible using the available power-ups.'
+    randomly selected cards out of four, First Select Gun to shoot,each granting
+    you a unique secondary power. You can swap these cards to use their power-ups.
+    If a power-up or the ammunition for a particular card runs out, that card will
+    be discarded. Your goal is to achieve the highest score possible using the available
+    power-ups.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3c6dfdb569b42e48993cbefcfca813a, type: 2}
   m_sharedMaterial: {fileID: 3710269756083977649, guid: a3c6dfdb569b42e48993cbefcfca813a, type: 2}
@@ -4224,8 +4286,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11785,6 +11847,8 @@ MonoBehaviour:
   maxHealth: 80
   CurrentHealth: 0
   Gun_Damage: 20
+  Level: {fileID: 0}
+  EndScreen: {fileID: 0}
 --- !u!114 &2117456688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12088,7 +12152,7 @@ PrefabInstance:
     - target: {fileID: -1421576322165341816, guid: 06b2c1434cbd30c47a6fe4d1196c0cac, type: 3}
       propertyPath: showEndScreen
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1968354260}
     - target: {fileID: 4958343549595475426, guid: 06b2c1434cbd30c47a6fe4d1196c0cac, type: 3}
       propertyPath: m_Name
       value: AR Camera

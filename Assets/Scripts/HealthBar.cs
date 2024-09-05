@@ -8,7 +8,9 @@ public class HealthBar : MonoBehaviour
     public Slider HealthSlider;
     public float maxHealth = 80f;
     public float CurrentHealth;
-    public float Gun_Damage = 20f;
+    public float Gun_Damage = 5f;
+    public GameObject Level;
+    public GameObject EndScreen;
     void Start()
     {
         CurrentHealth = maxHealth;
@@ -23,7 +25,8 @@ public class HealthBar : MonoBehaviour
         }
         HealthSlider.value = CurrentHealth;
         if(CurrentHealth<1){
-            Application.Quit();
+            Level.SetActive(false);
+            EndScreen.SetActive(true);
         }
     } 
     

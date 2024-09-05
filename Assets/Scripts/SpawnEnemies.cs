@@ -19,7 +19,7 @@ public class SpawnEnemies : MonoBehaviour
     {
          while (true) // Infinite loop to keep spawning enemies
         {
-            for (int i = 0; i < (int)Random.Range(1f,5f); i++)
+            for (int i = 0; i < (int)Random.Range(1f,3f); i++)
             {
                 // Calculate a random spawn location around the spawner
                 Vector3 spawnLocation = new Vector3(
@@ -30,7 +30,7 @@ public class SpawnEnemies : MonoBehaviour
             }
 
             // Wait for the specified interval before spawning again
-            yield return new WaitForSeconds(Random.Range(1f,3f));
+            yield return new WaitForSeconds(Random.Range(1.5f,4f));
         }
     }
     void Pause(){
