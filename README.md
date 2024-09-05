@@ -28,7 +28,7 @@
 - We are doing this in order to help us with creating a basic blue print for the game.
 
 --------------------
-<a name = "#3">
+<a name = "#3"></a>
 
 #### Starting with basic scripting
 
