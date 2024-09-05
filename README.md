@@ -33,6 +33,7 @@
 #### Starting with basic scripting
 
 - Set up basic scripts such as shooting, enemy despawning, enemy spawning, etc.
+- ![Shooting Script](1.jpg)
 - Add these scripts to the respective dummy objects.
 
 --------------------
@@ -41,6 +42,7 @@
 #### Setting up UI
 
 - Set up basic functionalities such as pause menu, start button, instruction screeen etc.
+- ![Shooting Script](2.jpg)
 - Also make sure to add crosshair shoot button etc.
 
 --------------------
@@ -57,4 +59,5 @@
 #### Building an apk file
 
 - To install the game you would need to build an apk file.
+- ![Shooting Script](3.jpg)
 - Install the game using the apk file to play the game on your mobile phone
